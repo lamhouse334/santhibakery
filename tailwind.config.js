@@ -40,7 +40,7 @@ module.exports = {
       teal: colors.teal,
       orange: colors.orange,
       magenta: colors.magenta,
-      primary: colors.sky,
+      primary: colors.yellow,
       secondary: colors.pink,
       footer: colors.slate,
     },
