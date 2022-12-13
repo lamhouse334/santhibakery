@@ -1,5 +1,5 @@
 <template>
-	<header class="flex1 flex items-center bg-primary-900  justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5">
+	<header class="flex1 flex items-center bg-primary-900  justify-between h-20 lg:max-w-8xl mx-auto px-5 lg:px-5" style="display: flex;justify-content: space-evenly;">
 		<!-- Logo (Start)-->
 		<NuxtLink to="/">
 			<IconLogo class="w-14 h-14" />

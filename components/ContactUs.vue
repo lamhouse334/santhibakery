@@ -1,6 +1,6 @@
 <template>
     <div class="mt-8 xl:mt-0 w-96">
-        <div class="md:grid md:grid-cols-2">
+        <div class="md:grid md:grid-cols-1">
             
             <div>
             </div>
@@ -108,14 +108,14 @@
                     </dd>
                 </div>
 
-                <div class="mt-3">
+                <!-- <div class="mt-3">
                     <dt class="sr-only">Gstin</dt>
                     <dd class="flex">
                         <span class="ml-0">
                                 GSTIN : {{menuitems.contactus.gstin}}
                             </span>
                     </dd>
-                </div>
+                </div> -->
 
             </dl>
             

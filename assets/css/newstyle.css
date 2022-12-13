@@ -1,0 +1,76 @@
+.atext {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh; */
+	font-size: clamp(2rem, 2.8vw, 5rem);
+	font-family: Raleway;
+	font-weight: bold;
+  }
+  
+  .typewriter {
+	  width: 21.5ch;
+	  white-space: nowrap;
+	  overflow: hidden;
+	  color: #f0f8fd;
+	  border-right:4px solid #19e4e4;
+	  animation: cursor 1s step-start infinite, 
+	  text 5s steps(18) alternate infinite;
+  }
+  
+  @keyframes cursor {
+	0%, 100% { 
+	border-color: #f0f8fd; 
+  }
+}
+  
+  @keyframes text {
+	  0% { 
+	  width: 0; 
+	}
+	  100% { 
+	  width: 21.5ch; 
+	}
+  }
+
+  body,
+html {
+  height: 100%;
+  margin: 0;
+  /* use the following only if you are able to scroll past the image to see a white area (this is the <body> peeking out) above or below the image */
+  overflow: hidden;
+}
+
+.bgimg {
+  /* image url  */
+  background-image: url("https://res.cloudinary.com/lamcom/image/upload/v1670591272/santhibakery/home/pexels-acharaporn-kamornboonyarush-1028714_1_wpj1e4.jpg");
+
+
+  /* make the image full height */
+  height: 100%;
+
+  /* center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* use the following only if if you are able to scroll past the image to see a white area (this is the <body> peeking out) above or below the image */
+  overflow: hidden;
+}
+
+.aboutbg {
+  /* image url  */
+  background-image: url("https://res.cloudinary.com/lamcom/image/upload/v1670773572/santhibakery/home/home1_ohjlll.png");
+
+
+  /* make the image full height */
+  height: 100%;
+
+  /* center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* use the following only if if you are able to scroll past the image to see a white area (this is the <body> peeking out) above or below the image */
+  overflow: hidden;
+}
