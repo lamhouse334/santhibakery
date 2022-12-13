@@ -26,26 +26,26 @@
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z",
       "title": "About",
-      "link": "/about"
+      "link": "/About"
     },
     
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630956425/zicons/holding-hands_q6hb0k.svg",
       "icon": "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
+      "title": "Gallery",
+      "link": ""
+    },
+    {
+      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
+      "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
       "title": "Services",
-      "link": "/services"
+      "link": "/Services"      
     },
     {
       "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
       "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "Team",
-      "link": "/team"      
-    },
-    {
-      "img": "https://res.cloudinary.com/nathansweb/image/upload/v1630897884/zicons/layers_g8nilb.svg",
-      "icon": "M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4",
-      "title": "Clients",
-      "link": "/clients"      
+      "title": "Contact",
+      "link": "/Contact"      
     }
     
   ],
@@ -109,18 +109,18 @@
           },
           {
             "icon": "",
+            "title": "Gallery",
+            "link": ""
+          },
+          {
+            "icon": "",
             "title": "Services",
-            "link": "/services"
+            "link": "/Services"
           },
           {
             "icon": "",
-            "title": "Team",
-            "link": "/team"
-          },
-          {
-            "icon": "",
-            "title": "Clients",
-            "link": "/clients"
+            "title": "Contact",
+            "link": "/Contact"
           }
         ]
       },
@@ -162,7 +162,7 @@
         ]
       }
     ],
-    "copyright": "© Copyright 2021 LamHouse. All Rights Reserved."
+    "copyright": "© Copyright 2022 Santhi Bakery. All Rights Reserved."
   },
   "socialmedia": [
     {
@@ -181,11 +181,11 @@
   ],
   "testimonials": [
     {
-      "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
-      "testimony": "We are crafting unique IT & Technology Ideas",
-      "clientname": "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
-      "clientname1": "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
-      "clientname2": "It has been 10 years, and the journey has been incredible.",
+      "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1670873436/santhibakery/home/homepic_1_bjlmo4.jpg",
+      "testimony": "INTRO",
+      "clientname": "SANTHI BAKERY was established by Mr.S. GOPAL(Founder). Since its inception it is growing from strength to strength in the bakery business.",
+      "clientname1": "When you think of bakery items, Santhi Bakery is the place where every kind of tasty and palatable items such as delightful Fresh cream cakes, Birthday cakes, Wedding cakes, Digital photo cakes, Butter cream cakes and also make Black Forest cake, White forest cake, Pineapple cake, Chocolate Truffle cake, Nought cake, Chocolate orange cake, Irish coffee cake, Gateaux items-Mango gateux, Strawberry cake, Butterscotch cake etc..,",
+      "clientname2": "They are specialists in making Macaroon. They also make different kinds of Cakes according to customer's choice. Santhi Bakery also houses a restaurent where every kind of menu for breakfast, lunch and dinner is available. It is situated at the entrance leading to the town of Tiruchendur.",
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
@@ -195,10 +195,10 @@
   "about": [
     {
       "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
-      "heading": "We are crafting unique IT & Technology Ideas",
-      "point1": "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
-      "point2": "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
-      "point3": "It has been 10 years, and the journey has been incredible.",
+      "heading": "INTRO",
+      "point1": "SANTHI BAKERY was established by Mr.S. GOPAL(Founder). Since its inception it is growing from strength to strength in the bakery business.",
+      "point2": "When you think of bakery items, Santhi Bakery is the place where every kind of tasty and palatable items such as delightful Fresh cream cakes, Birthday cakes, Wedding cakes, Digital photo cakes, Butter cream cakes and also make Black Forest cake, White forest cake, Pineapple cake, Chocolate Truffle cake, Nought cake, Chocolate orange cake, Irish coffee cake, Gateaux items-Mango gateux, Strawberry cake, Butterscotch cake etc..,",
+      "point3": "They are specialists in making Macaroon. They also make different kinds of Cakes according to customer's choice. Santhi Bakery also houses a restaurent where every kind of menu for breakfast, lunch and dinner is available. It is situated at the entrance leading to the town of Tiruchendur.",
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
@@ -208,10 +208,10 @@
   "legacy": [
     {
       "imageurl": "https://res.cloudinary.com/lamcom/image/upload/v1661952197/lamhouse/about_gotbx4.jpg",
-      "heading": "We are crafting unique IT & Technology Ideas",
-      "point1": "Our Goal is: Every business idea must grow and have an online presence – however big or small!!",
-      "point2": "Today technology rules the world! We began our journey, in the year 2012, in the domain of 2D and 3D Animation.",
-      "point3": "It has been 10 years, and the journey has been incredible.",
+      "heading": "INTRO",
+      "point1": "SANTHI BAKERY was established by Mr.S. GOPAL(Founder). Since its inception it is growing from strength to strength in the bakery business.",
+      "point2": "When you think of bakery items, Santhi Bakery is the place where every kind of tasty and palatable items such as delightful Fresh cream cakes, Birthday cakes, Wedding cakes, Digital photo cakes, Butter cream cakes and also make Black Forest cake, White forest cake, Pineapple cake, Chocolate Truffle cake, Nought cake, Chocolate orange cake, Irish coffee cake, Gateaux items-Mango gateux, Strawberry cake, Butterscotch cake etc..,",
+      "point3": "They are specialists in making Macaroon. They also make different kinds of Cakes according to customer's choice. Santhi Bakery also houses a restaurent where every kind of menu for breakfast, lunch and dinner is available. It is situated at the entrance leading to the town of Tiruchendur.",
       "clienteducation": "",
       "clienttitle": "",
       "clientcompany": "",
@@ -321,18 +321,17 @@
     }
   ],  
   "contactus": {
-    "companyname": "Lam House",
-    "addressline1": "#104, 2nd Cross, Royal County Layout, Parappana Agrahara",
+    "companyname": "Santhi Bakery",
+    "addressline1": "No.19/14, Kayalpatinam, Main Road, opp. to Bhagat Singh Bus Stand",
     "addressline2": "",
-    "city": "Al-Hasa",
-    "state": "",
-    "country": "Bangalore Karnataka 560100",
-    "zip": "",
-    "phone1": "(+91) 8861773950",
+    "city": "Thiruchendur",
+    "state": "Tamil Nadu",
+    "country": "",
+    "zip": "628215",
+    "phone1": "(+91) 9788370003",
     "phone2": "",
     "fax": "",
-    "gstin": "29AHWPM6864B1ZP",
-    "email": "biz@lamhouse.in",
+    "email": "santhibakery.tiruchendur@gmail.com",
     "website": "https://www.lamhouse.in"
   },
   "map": {
