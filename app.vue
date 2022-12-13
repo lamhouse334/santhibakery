@@ -18,19 +18,19 @@ import { Calendar } from 'v-calendar';
 //const colorMode = useColorMode()
 //console.log(colorMode.preference)
 useHead({
-	title: "Lamhouse IT Solution",
+	title: "Santhi Bakery",
 	meta: [
 		{
 			name: "description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity",
+			content: "SANTHI BAKERY was established by Mr.S. GOPAL(Founder). Since its inception it is growing from strength to strength in the bakery business.",
 		},
 		{
 			property: "og:title",
-			content: "Lamhouse IT Solution",
+			content: "Santhi Bakery",
 		},
 		{
 			property: "og:description",
-			content: "LAM House symbolises Brilliance, Reliability and Integrity ",
+			content: "SANTHI BAKERY was established by Mr.S. GOPAL(Founder). Since its inception it is growing from strength to strength in the bakery business.",
 		},
 		{
 			property: "og:image",
@@ -38,11 +38,11 @@ useHead({
 		},
 		{
 			property: "og:type",
-			content: "https://www.lamhouse.in",
+			content: "https://www.santhibakery.in",
 		},
 		{
 			property: "og:site_name",
-			content: "Lamhouse",
+			content: "Santhi Bakery",
 		},
 	],
 });
