@@ -63,4 +63,4 @@
       </section>
 </template>
 <style scoped src="@/assets/css/gallery.css"></style>
-<style scoped src="@/assets/css/bootstrap.css"></style>
+<style scoped src="@/assets/css/bootstrap.min.css"></style>

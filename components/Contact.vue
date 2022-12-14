@@ -47,5 +47,5 @@
 
       </section>
 </template>
-<style scoped src="@/assets/css/Contact.css"></style>
-<style scoped src="@/assets/css/bootstrap.css"></style>
+<style scoped src="@/assets/css/contact.css"></style>
+<style scoped src="@/assets/css/bootstrap.min.css"></style>
