@@ -57,7 +57,7 @@
 			<!-- <NuxtLink to="#"
 				class="px-5 py-2 text-sm  ring-2 ring-primary-500 hover:bg-primary-700 ring-inset text-white rounded-full transition-all duration-300">
 				Sign in</NuxtLink> -->
-			<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
+			<NuxtLink to="contact"
 				class="px-5 py-2 text-sm bg-primary-500 text-white rounded-full hover:bg-primary-700 transition-all duration-300">
 				Contact us</NuxtLink>
 			<!--<NuxtLink to="#" @click="useNuxtApp().$bus.$emit('evtShowContactSales')"
