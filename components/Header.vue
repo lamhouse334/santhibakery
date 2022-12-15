@@ -42,7 +42,7 @@
 		<!-- Nav Starts-->
 		<!--Main Menu (Start)-->
 		<div class="hidden space-x-8 md:ml-10 md:flex">
-			<div v-for="(menu, idx) in menuitems.nav" @mouseover="showMenu(idx)" :key="'mnu_' + idx + '_' + menu.link">
+			<div v-for="(menu, idx) in menuitems.nav" @mouseover="showMenu(idx)" :key="'mnu_' + idx">
 					<a :href="menu.link"
 						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-white  hover:text-white  focus:text-white'">
 						{{ menu.title }}
