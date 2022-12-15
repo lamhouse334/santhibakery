@@ -1,6 +1,5 @@
 <template>
-	<a href="/">
-		<span class="sr-only">Swara Nritya</span>
+	<a href="/">	
 		<img tag="img" to="#" alt="Logo"
 			src="https://res.cloudinary.com/lamcom/image/upload/v1670505085/santhibakery/logo_lywyyo.png" />
 	</a>

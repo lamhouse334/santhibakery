@@ -1,26 +1,27 @@
 <template>
-  <div>    
-   <Contact />
+  <div>
+    <Contact />
   </div>
-
 </template>
 
 <script setup>
 definePageMeta({
   //colorMode: 'system',
   layout: "main",
-})
-const { data: color } = ref('white')
-const { data: services } = await useAsyncData('services-list', () => queryContent('services')
-  .only([
-    "title",
-    "description",
-    "coverimage",
-    "author",
-    "date",
-    "_path",
-    "tags",
-    "type",
-  ])
-  .find())
+});
+const { data: color } = ref("white");
+const { data: services } = await useAsyncData("services-list", () =>
+  queryContent("services")
+    .only([
+      "title",
+      "description",
+      "coverimage",
+      "author",
+      "date",
+      "_path",
+      "tags",
+      "type",
+    ])
+    .find()
+);
 </script>

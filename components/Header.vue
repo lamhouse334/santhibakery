@@ -43,63 +43,13 @@
 		<!--Main Menu (Start)-->
 		<div class="hidden space-x-8 md:ml-10 md:flex">
 			<div v-for="(menu, idx) in menuitems.nav" @mouseover="showMenu(idx)" :key="'mnu_' + idx + '_' + menu.link">
-				<div class="relative" v-if="menu.children">
-					<button type="button" class="group inline-flex items-center space-x-2 font-bold text-xl leading-6 focus:outline-none transition ease-in-out duration-150
-						text-white  hover:text-white  focus:text-white">
-						<span>{{ menu.title }}</span>
-						<!-- Item active: "text-white", Item inactive: "text-white-400" -->
-						<svg class="transition ease-in-out duration-150
-							text-white h-5 w-5 group-hover:text-white group-focus:text-white" viewBox="0 0 20 20" fill="currentColor">
-							<path fill-rule="evenodd"
-								d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-								clip-rule="evenodd" />
-						</svg>
-					</button>
-
-					<!--Flyout Menu (Start)-->
-					<div class="absolute z-10 inset-x-0 transform shadow-lg">
-
-						<div @focus="showMenu(idx)" @mouseleave="hideMenu(idx)" v-if="isVisible[idx]"
-							:id="'cmenu_' + idx"
-							class="absolute left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 z-50">
-							<div class="rounded-lg shadow-lg">
-								<div class="rounded-lg shadow-xs overflow-hidden">
-									<div class="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-										<a :href="childmenu.link" v-for="(childmenu, idx) in menu.children"
-											:key="'mnu_' + idx + '_' + childmenu.link"
-											class="-m-3 p-3 flex items-start space-x-4 rounded-lg transition ease-in-out duration-150">
-											<div v-if="childmenu.img">
-
-												<img :src="childmenu.img" width="30" height="30" :alt="childmenu.title">
-											</div>
-											<div v-else>
-												<!--<span  class="rounded-full bg-indigo-50 inline-flex p-3 text-indigo-700 ring-4 ring-white" :class="`bg-${childmenu.spancolor}-50`">-->
-												<svg class="flex-shrink-0 h-6 w-6 fill-primary-500" fill="none"
-													viewBox="0 0 24 24" stroke="currentColor">
-													<path stroke-linecap="round" stroke-linejoin="round"
-														stroke-width="2" :d="childmenu.icon" />
-												</svg>
-												<!--</span>-->
-											</div>
-											<div class="space-y-1">
-												<p class="leading-6 font-bold hover:text-primary-900">
-													{{ childmenu.title }}
-												</p>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--Flyout Menu (End)-->
-				</div>
-				<div v-else>
+			
+			
 					<a :href="menu.link"
 						class="text-xl leading-6 font-bold  focus:outline-none transition ease-in-out duration-150 text-white  hover:text-white  focus:text-white'">
 						{{ menu.title }}
 					</a>
-				</div>
+				
 			</div>
 		</div>
 		<!--Main Menu (End)-->
